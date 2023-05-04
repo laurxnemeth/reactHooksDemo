@@ -1,13 +1,14 @@
 import React from 'react';
 // import Counter from './Counter.jsx';
-import { Counter, ToppingList } from "./";
+import { Counter, ToppingList, List } from "./";
 
 function Main () {
   return (
     <div>
       <h1>Hello, World</h1>
-      <Counter />
-      <ToppingList />
+      {/* <Counter />
+      <ToppingList /> */}
+      <List />
     </div>
   )
 }
